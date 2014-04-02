@@ -712,3 +712,10 @@ a:focus {
     -o-transition:      opacity 1s;
     transition:         opacity 1s;
 }
+
+.bottom-right {
+    position: absolute;
+    right:    20px;
+    bottom:   0;
+    font-size: 2px;
+}
