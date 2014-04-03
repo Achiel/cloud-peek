@@ -5,11 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    <title>A peek into the Mendix Cloud</title>
     
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
-
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
     <link href="css/impress-demo.css" rel="stylesheet" />
@@ -27,11 +24,11 @@
 
 <div id="impress">
 
-    <div id="bored" class="step slide" data-x="2000" data-y="2000" data-scale="1">
+    <div id="bored" class="step slide" data-x="2000" data-y="-1000" data-scale="1">
         <q>welcome to cloud 101</q>
         <q class="bottom-right">achiel van der mandele</q>
     </div>
-    <div  class="step slide" data-x="3000" data-y="2000" data-scale="1">
+    <div  class="step slide" data-x="3000" data-y="-1000" data-scale="1">
         <q>What matters to us?</q>
         <p><br/></p>
         <ul>
@@ -39,11 +36,11 @@
             <li> - uptime</li>
         </ul>
     </div>
-    <div  class="step slide" data-x="4000" data-y="2000" data-scale="1">
+    <div  class="step slide" data-x="4000" data-y="-1000" data-scale="1">
         <q>Deploying locally</q>
         <img width="100%" src="https://s3.amazonaws.com/media-p.slid.es/uploads/achiel/images/320821/Drawing__2_.png"/>
     </div>
-    <div  class="step slide" data-x="5000" data-y="2000" data-scale="1">
+    <div  class="step slide" data-x="4000" data-y="0" data-scale="1">
         <q>What's wrong with this?</q>
         <p><br/></p>
         <ul>
@@ -56,7 +53,7 @@
 
     <div class="step" data-x="900" data-y="400" data-scale=1>
     </div>
-    <div  class="step slide" data-x="6000" data-y="2000" data-scale="1">
+    <div  class="step slide" data-x="4000" data-y="1000" data-scale="1">
         <q>> host myapp.mendixcloud.com
             myapp.mendixcloud.com is an alias for lb.luk.mendixcloud.net.
         </q>
@@ -66,13 +63,15 @@
 
     <div class="step" data-x="900" data-y="950" data-scale=1>
     </div>
-    <div  class="step slide" data-x="7000" data-y="2000" data-scale="1">
+    <div  class="step slide" data-x="4000" data-y="2000" data-scale="1">
         <img src="ssllabs.png" width="100%"/>
     </div>
-    <div  class="step slide" data-x="8000" data-y="2000" data-scale="1">
+    <div  class="step slide" data-x="4000" data-y="3000" data-scale="1">
         <img src="digid.png" width="100%"/>
     </div>
 
+    <div class="step" data-x="900" data-y="950" data-scale=1>
+    </div>
     <div class="step" data-x="900" data-y="1500" data-scale=1>
     </div>
 
@@ -82,18 +81,20 @@
         
         <center> <img src="appnode_in_depth.png" /></center>
     </div>
-    <div  class="step slide" data-x="9000" data-y="2000" data-scale="1">
+
+    <!--physically after ssl-->
+    <div  class="step slide" data-x="4000" data-y="4000" data-scale="1">
         <q>Custom Request Handlers</q>
         <img src="requesthandlers.jpg"/>
     </div>
     <div class="step" data-x="1000" data-y="900" data-scale="3" >
     </div>
-    <div class="step slide" data-x="10000" data-y="-3000" data-scale=1>
+    <div class="step slide" data-x="3000" data-y="4000" data-scale=1>
         
         <h1>Incremental backups</h1>
         insert pic here illustrating diffs
     </div>
-    <div class="step slide" data-x="-000" data-y="-3000" data-scale=1>
+    <div class="step slide" data-x="2000" data-y="4000" data-scale=1>
         
         <h1>java security</h1>
         <p>
@@ -111,7 +112,7 @@
         </p>
         <p>blablabla...</p>
     </div>
-    <div class="step slide" data-x="-000" data-y="-3000" data-scale=1>
+    <div class="step slide" data-x="1000" data-y="4000" data-scale=1>
         
         <h1>wrap up</h1>
     </div>
@@ -119,7 +120,7 @@
     </div>
 
         <center>
-            <table  >
+            <table>
                 <tr>
                     <td colspan="2"><center><img src="user.png" /></center></td>
                 </tr>
@@ -133,6 +134,16 @@
                 </tr>
                 <tr>
                     <td colspan="2"><center><img src="appnode.png"/></center></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> 
+                        <table>
+                            <tr>
+                                <td><center><img height="300px" src="alerting.png"/></center></td>
+                                <td> <center><img height="300px" src="graphs.png"/></center></td>
+                                <td> <center><img height="300px" src="backups.png"/></center></td>
+                            </tr>
+                    </td>
                 </tr>
 
             </table>
